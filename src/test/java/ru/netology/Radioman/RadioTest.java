@@ -143,7 +143,6 @@ public class RadioTest {
     }
 
 
-
     @Test
     public void setToMinChanel() {
         radio.setCurrentChanel(0);

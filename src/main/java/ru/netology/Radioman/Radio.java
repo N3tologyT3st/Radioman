@@ -22,7 +22,7 @@ public class Radio {
     public Radio() {
     }
 
-    public int getNumberOfChanel(){
+    public int getNumberOfChanel() {
         return currentChanel;
     }
 
@@ -90,19 +90,16 @@ public class Radio {
     public void nextChanel() {
         if (currentChanel >= 9) {
             setCurrentChanel(minChanel);
-        }
-        else {
+        } else {
             setCurrentChanel(currentChanel + 1);
         }
     }
 
 
-
     public void prevChanel() {
         if (currentChanel <= minChanel) {
             setCurrentChanel(maxChanel);
-        }
-        else {
+        } else {
             setCurrentChanel(currentChanel - 1);
         }
     }
